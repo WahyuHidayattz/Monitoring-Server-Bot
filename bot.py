@@ -1,7 +1,7 @@
 import psutil
 import telebot
 
-TOKEN   = '7194974142:AAEAZcxAsPvLY4nuG_PLnPsoj55G1mhsHK8' # sesuaikan dengan token bot masing-masing
+TOKEN   = 'write yout bot token here' # sesuaikan dengan token bot masing-masing
 bot     = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
